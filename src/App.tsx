@@ -7,16 +7,16 @@ import Withdraw from './components/Withdraw';
 
 
 function App() {
-  const balance = useSelector((state:any)=>state.balance)
+  const balanc = useSelector((state:any)=>state.balance)
   return (
 
     <>
     <div className='App'>
-    <Deposit balance={balance}/>
+    <Deposit balance={balanc}/>
     <br/>
     <Withdraw/>
     <br/>
-    <div>{balance}</div>
+    <div>{balanc}</div>
     </div>
     </>
   );
